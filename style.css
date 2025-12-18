@@ -1,0 +1,52 @@
+.stApp{
+    /* background: linear-gradient(135deg, #FFE29F, #FFA99F, #A0C4FF); */
+
+    background: linear-gradient(135deg, #FFE5B4, #FFD1DC, #A0C4FF);
+
+
+
+    min-height: 100vh;
+    font-family: 'Segoe UI',sans-serif;
+}
+.card{
+  
+
+   /* background: #FFF8EE;
+
+    border-radius: 14px;
+border: 1px solid rgba(0, 0, 0, 0.05);
+box-shadow: 0 18px 38px rgba(0, 0, 0, 0.18); */
+background: #FFF8EE;  /* warm white */
+border-radius: 12px;
+box-shadow: 0 14px 32px rgba(0,0,0,0.12);
+border: 1px solid rgba(0,0,0,0.04);
+
+
+
+
+
+    border-radius:16px ;
+    padding: 25px;
+    text-align: center;
+    box-shadow : 0 8px 20px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+h1,h2,h3{
+    color : #0f172a;
+}
+div[data-testid="metric-container"]{
+    background-color: #f8fafc;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.prediction-box{
+    background: linear-gradient(135deg,#dcfce7,#bbf7d0);
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #14532d;
+    margin-top: 15px;
+}
